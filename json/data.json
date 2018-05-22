@@ -1,0 +1,242 @@
+[   
+    { 
+        "description" : "Kraft Cheddar Cheese",
+        "category"    : "Dairy Products",
+        "price"       : 42.00,
+        "imageURL"    : "images/kraft.jpg"
+    },
+    { 
+        "description" : "Pizza Slice",
+        "category"    : "Snacks",
+        "price"       : 12.50,
+        "imageURL"    : "images/pizza.jpg"
+    },
+    { 
+        "description" : "KitKat Chocolate",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 16.00,
+        "imageURL"    : "images/kitkat.jpg"
+    },
+    { 
+        "description" : "Steak Sandwich",
+        "category"    : "Snacks",
+        "price"       : 32.00,
+        "imageURL"    : "images/steaksandwich.jpg"
+    },
+    { 
+        "description" : "Anchor Butter",
+        "category"    : "Dairy Products",
+        "price"       : 35.00,
+        "imageURL"    : "images/anchor.jpg"
+    },
+    { 
+        "description" : "Chippy (Red)",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 30.00,
+        "imageURL"    : "images/chippyred.jpg"
+    },
+    { 
+        "description" : "Hair Gel",
+        "category"    : "Toiletries",
+        "price"       : 32.00,
+        "imageURL"    : "images/hairgel.jpg"
+    },
+    { 
+        "description" : "BIG Burger",
+        "category"    : "Snacks",
+        "price"       : 65.00,
+        "imageURL"    : "images/burger.jpg"
+    },
+    { 
+        "description" : "Chippy (Blue)",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 28.00,
+        "imageURL"    : "images/chippyblue.jpg"
+    },
+    { 
+        "description" : "Nesquik Chocolate",
+        "category"    : "Beverages",
+        "price"       : 18.00,
+        "imageURL"    : "images/nesquik.jpg"
+    },
+    { 
+        "description" : "Chips Ahoy!",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 23.50,
+        "imageURL"    : "images/chipsahoy.jpg"
+    },
+    { 
+        "description" : "Nestlé Milk",
+        "category"    : "Dairy Products",
+        "price"       : 75.00,
+        "imageURL"    : "images/nestlemilk.jpg"
+    },
+    { 
+        "description" : "Chiz Curls",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 27.00,
+        "imageURL"    : "images/chizcurls.jpg"
+    },
+    { 
+        "description" : "Carnation Condensed Milk",
+        "category"    : "Dairy Products",
+        "price"       : 21.50,
+        "imageURL"    : "images/carnation.jpg"
+    },
+    { 
+        "description" : "Clover Chips!",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 32.00,
+        "imageURL"    : "images/cloverchips.jpg"
+    },
+    { 
+        "description" : "Coke",
+        "category"    : "Beverages",
+        "price"       : 19.00,
+        "imageURL"    : "images/coke.jpg"
+    },
+    { 
+        "description" : "7-Up",
+        "category"    : "Beverages",
+        "price"       : 18.00,
+        "imageURL"    : "images/7up.jpg"
+    },
+    { 
+        "description" : "M&M's Chocolate",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 14.00,
+        "imageURL"    : "images/m&m.jpg"
+    },
+    { 
+        "description" : "Coke Zero",
+        "category"    : "Beverages",
+        "price"       : 19.50,
+        "imageURL"    : "images/cokezero.jpg"
+    },
+    { 
+        "description" : "Siopao (Bola-Bola)",
+        "category"    : "Snacks",
+        "price"       : 22.50,
+        "imageURL"    : "images/siopao.jpg"
+    },
+    { 
+        "description" : "Colgate",
+        "category"    : "Toiletries",
+        "price"       : 38.00,
+        "imageURL"    : "images/colgate.jpg"
+    },
+    { 
+        "description" : "Chips Ahoy! Cherry",
+        "category"    : "Chips, Cookies, and Candy Bars",
+        "price"       : 25.00,
+        "imageURL"    : "images/chipsahoycherry.jpg"
+    },
+    { 
+        "description" : "Diet Coke",
+        "category"    : "Beverages",
+        "price"       : 21.00,
+        "imageURL"    : "images/dietcoke.jpg"
+    },
+    { 
+        "description" : "Toothbrush",
+        "category"    : "Toiletries",
+        "price"       : 24.75,
+        "imageURL"    : "images/toothbrush.jpg"
+    },
+    { 
+        "description" : "Pepsi",
+        "category"    : "Beverages",
+        "price"       : 19.00,
+        "imageURL"    : "images/pepsi.jpg"
+    },
+    { 
+        "description" : "Close-Up",
+        "category"    : "Toiletries",
+        "price"       : 42.75,
+        "imageURL"    : "images/closeup.jpg"
+    },
+    { 
+        "description" : "Hotdog Sandwich",
+        "category"    : "Snacks",
+        "price"       : 27.50,
+        "imageURL"    : "images/hotdog.jpg"
+    },
+    { 
+        "description" : "Ivory Soap",
+        "category"    : "Toiletries",
+        "price"       : 21.00,
+        "imageURL"    : "images/ivory.jpg"
+    },
+    { 
+        "description" : "Milo Chocolate",
+        "category"    : "Beverages",
+        "price"       : 12.50,
+        "imageURL"    : "images/milo.jpg"
+    },
+    { 
+        "description" : "Onion Rings",
+        "category"    : "Snacks",
+        "price"       : 15.00,
+        "imageURL"    : "images/onionrings.jpg"
+    },
+    { 
+        "description" : "Sarsi",
+        "category"    : "Beverages",
+        "price"       : 17.50,
+        "imageURL"    : "images/sarsi.jpg"
+    },
+    { 
+        "description" : "Eggs (per piece)",
+        "category"    : "Dairy Products",
+        "price"       : 6.50,
+        "imageURL"    : "images/eggs.jpg"
+    },
+    { 
+        "description" : "Head & Shoulders Shampoo",
+        "category"    : "Toiletries",
+        "price"       : 32.00,
+        "imageURL"    : "images/shampoo.jpg"
+    },
+    { 
+        "description" : "Ham & Cheese Sandwich",
+        "category"    : "Snacks",
+        "price"       : 25.00,
+        "imageURL"    : "images/hench.jpg"
+    },
+    { 
+        "description" : "A & W Root Beer",
+        "category"    : "Beverages",
+        "price"       : 21.50,
+        "imageURL"    : "images/a&w.jpg"
+    },
+    { 
+        "description" : "Nestlé Cream",
+        "category"    : "Dairy Products",
+        "price"       : 24.00,
+        "imageURL"    : "images/nestlecream.jpg"
+    },
+    { 
+        "description" : "Sprite",
+        "category"    : "Beverages",
+        "price"       : 18.00,
+        "imageURL"    : "images/sprite.jpg"
+    },
+    { 
+        "description" : "Nescafé 3-in-1",
+        "category"    : "Beverages",
+        "price"       : 8.50,
+        "imageURL"    : "images/nescafe.jpg"
+    },
+    { 
+        "description" : "Dove Soap",
+        "category"    : "Toiletries",
+        "price"       : 22.50,
+        "imageURL"    : "images/dove.jpg"
+    },
+    { 
+        "description" : "Mountain Dew",
+        "category"    : "Beverages",
+        "price"       : 18.00,
+        "imageURL"    : "images/mountaindew.jpg"
+    }
+]
