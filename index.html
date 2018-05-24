@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+
+
+<link rel="stylesheet" href="dist/js/bootstrap.js">
+<link rel="stylesheet" href="dist/js/bootstrap.js">
+<link rel="stylesheet" href="dist/css/bootstrap.css">
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="dist/css/sheet.css">
+</head>
+<body>
+
+    <h1 class="text-center"><i class="fa fa-home"></i>My Grocery E</h1>
+    
+    <div id="" class="container" style="padding:20px;">
+        <div>
+
+            <div style="padding-bottom: 30px; padding-left: 65px;">
+                 <select name="" id="categoryList" class="input-sm fontz" >
+                <option value="" id="">
+                    Categories  
+                </option>
+            </select>
+            </div>
+            <div id="wan" class="col-md-12 ">
+
+            </div>        
+        </div>
+    </div>
+</body>
+<script src="jquery/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+var jsonParse;
+
+$(document).ready(function(){
+    requestData();
+
+    $("#categoryList").on('change',function(){
+        
+        var selectedCategory = $(this).val();
+        var table = ""
+
+        for (var i = 0; i < jsonParse.length; i++)
+        {
+            if (jsonParse[i].category == selectedCategory) 
+            {
+                console.log("Category: " + jsonParse[i].category + "Description: " + jsonParse[i].description + "Price: " + jsonParse[i].price);
+                table += "<div class='col-md-3 text-center form-group selectedpadding'>";
+                    table += "<div class='short borders'>"
+                        table += "<img class='' src='"+jsonParse[i].imageURL+"'' alt=''><br><br>";
+                        table += "<button class='btn btn-default btnn' type='' style='background-color: white;'>ADD TO CART</button>";
+                        table += "<div class='padders'>"
+                            table += "<p class='backgroundred'>" + jsonParse[i].description + "</p>";
+                        table += "</div>"
+                        table += "<p class='fontsz'>P " + jsonParse[i].price + ".00</p>";
+                    table += "</div>"
+                table += "</div>"
+            }
+            document.getElementById("wan").innerHTML = table;
+        }
+
+    });
+});
+
+
+function requestData()
+{
+ 
+    var ajaxhttp = new XMLHttpRequest();
+
+ 
+    ajaxhttp.onreadystatechange = function(){
+        if (this.readyState == 4 && this.status == 200) 
+        {
+            jsonParse = JSON.parse(this.responseText);
+            
+            var outputArray = [];
+            
+           // console.log(jsonParse);
+            for (var i = 0; i < jsonParse.length; i++)
+            {
+                if ((jQuery.inArray(jsonParse[i].category, outputArray)) == -1) 
+                {
+                    outputArray.push(jsonParse[i].category);
+                }
+            }
+
+            $.each(outputArray, function(i, item){
+                $('#categoryList').append($('<option>', {
+                    value: item,
+                    text: item  
+                }));
+            });
+        }
+
+    };
+
+
+    ajaxhttp.open("GET", "json/data.json", true);
+    ajaxhttp.send();
+} 
+</script>
+
+</html>
